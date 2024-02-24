@@ -1,19 +1,20 @@
-import Footer from "@components/Footer";
-import Header from "@components/Header";
+import Introduction from "@components/sections/Introduction";
 import Main_Content from "@components/Main_Content";
 import Sidebar from "@components/Sidebar";
+import Footer from "@components/Footer";
+import Techs from "@components/sections/Techs";
+import Project from "@components/sections/Project";
 
 function App() {
   return (
     <>
-      <Header />
-      {/* <header className="header">Header</header> */}
-      <Main_Content />
-      {/* <main className="main_content">Content</main> */}
+      <Introduction />
+      <Main_Content>
+        <Techs />
+        <Project />
+      </Main_Content>
       <Sidebar />
-      {/* <aside className="sidebar">Sidebar</aside> */}
       <Footer />
-      {/* <footer className="footer">Footer</footer> */}
     </>
   );
 }

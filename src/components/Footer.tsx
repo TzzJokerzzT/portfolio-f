@@ -1,7 +1,7 @@
 function Footer() {
   return (
     <footer className="footer">
-      <p>Footer</p>
+      <section>Desing & Built by Alexis Buelvas</section>
     </footer>
   );
 }

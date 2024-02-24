@@ -5,11 +5,6 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
   plugins: [react()],
   resolve: {
-    alias: [
-      {
-        find: "@components",
-        replacement: path.resolve(path.join(__dirname, "/src/components")),
-      },
-    ],
+    alias: [{ find: "@components", replacement: "/src/components" }],
   },
 });
