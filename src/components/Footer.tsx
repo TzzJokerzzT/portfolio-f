@@ -1,7 +1,9 @@
 function Footer() {
   return (
     <footer className="footer">
-      <section>Desing & Built by Alexis Buelvas</section>
+      <section>
+        <p>Desing & Built by Alexis Buelvas</p>
+      </section>
     </footer>
   );
 }
