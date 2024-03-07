@@ -1,0 +1,8 @@
+.techs {
+  display: grid;
+  grid-template-rows: 70px 1fr;
+  & .tech_tittle {
+    grid-column: span 3;
+    background: blue;
+  }
+}

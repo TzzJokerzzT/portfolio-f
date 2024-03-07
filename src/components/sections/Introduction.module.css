@@ -1,10 +1,12 @@
 .header {
-  & span {
-    color: blue;
-  }
   & h1 {
     margin: 1px;
     font-weight: bold;
-    color: rgba(0, 66, 143) 
+    color: var(--primary-color);
+  }
+  & h2,
+  p,
+  span {
+    color: var(--second-color);
   }
 }

@@ -1,7 +1,10 @@
+import style from "./Techs.module.css";
 const Techs = () => {
   return (
-    <section>
-      <h1>Technologies</h1>
+    <section className={style.techs}>
+      <div className={style.tech_tittle}>
+        <h1>Technologies</h1>
+      </div>
       <section>
         <h2>Languages:</h2>
         <li>HTML</li>

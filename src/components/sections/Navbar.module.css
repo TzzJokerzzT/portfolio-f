@@ -6,12 +6,10 @@
   & li {
     margin: 10px;
     cursor: pointer;
-    transition: color 0.5s ease-out, transform 0.2s ease-out,
-      font-weight 0.5s ease-out;
+    transition: color 0.5s ease-out, transform 0.2s ease-out
   }
   & li:hover {
-    color: blue;
+    color: var(--primary-color);
     transform: translate(5px, -5px);
-    font-weight: bold;
   }
 }
