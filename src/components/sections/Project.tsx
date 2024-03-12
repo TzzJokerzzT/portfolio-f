@@ -1,5 +1,26 @@
 import style from "./Project.module.css";
 
+const datos = [
+  {
+    id: 1,
+    name: "Rick and Morty Wiki",
+    link: "https://rick-and-morty-wi.netlify.app",
+    image: "",
+  },
+  {
+    id: 2,
+    name: "ToDo App",
+    link: "https://todo-apps-react.netlify.appp",
+    image: "",
+  },
+  {
+    id: 2,
+    name: "ToDo App",
+    link: "https://todo-apps-react.netlify.appp",
+    image: "",
+  },
+];
+
 const Project = () => {
   return (
     <section className={style.project}>
