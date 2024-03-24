@@ -1,0 +1,6 @@
+.sidebar_container {
+  margin: 10px;
+  & img {
+    width: 30px;
+  }
+}

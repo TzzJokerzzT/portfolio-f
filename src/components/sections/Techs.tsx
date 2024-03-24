@@ -3,10 +3,10 @@ const Techs = () => {
   return (
     <section className={style.techs}>
       <div className={style.tech_tittle}>
-        <h1>Technologies</h1>
+        <h1>TECHNOLOGIES</h1>
       </div>
       <section>
-        <h2>Languages:</h2>
+        <h2>LENGUAGES:</h2>
         <div>
           <li>HTML</li>
           <li>CSS</li>
@@ -14,7 +14,7 @@ const Techs = () => {
         </div>
       </section>
       <section>
-        <h2>Frameworks:</h2>
+        <h2>FRAMEWORKS:</h2>
         <div>
           <li>Astro</li>
           <li>React</li>
@@ -23,7 +23,7 @@ const Techs = () => {
         </div>
       </section>
       <section>
-        <h2>Dev Tools:</h2>
+        <h2>DEVS TOOLS:</h2>
         <div>
           <li>Git</li>
           <li>Bootsrap</li>

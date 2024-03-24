@@ -1,4 +1,5 @@
 .header {
+  display: flex;
   & h1 {
     margin: 1px;
     font-weight: bold;
@@ -8,5 +9,32 @@
   p,
   span {
     color: var(--second-color);
+  }
+  & .img_profile {
+    margin: 20px;
+    background-color: var(--primary-color);
+    width: 300px;
+    height: 300px;
+    & :hover,
+    &:focus {
+      outline: 0;
+      transform: translate(-4px, -4px);
+      & :after {
+        transform: translate(8px, 8px);
+      }
+      & img {
+        filter: none;
+        mix-blend-mode: normal;
+      }
+    }
+  }
+  & img {
+    width: 100%;
+    height: 100%;
+    border: 1 solid var(--primary-color);
+    border-radius: 4px;
+    mix-blend-mode: screen;
+    filter: grayscale(100%) contrast(1);
+    aspect-ratio: 16 / 9;
   }
 }
